@@ -4,7 +4,7 @@ using namespace std;
 #include <iostream>
 using namespace std;
 
-class baseClass{
+class baseClass final {
 public:
         virtual void perkenalan() {
             cout << "Hallo saya Function dari base class";
